@@ -214,11 +214,11 @@ script can instead be written like this:
     def cli():
         pass
 
-    @cli.command()
+    @click.command()
     def initdb():
         click.echo('Initialized the database')
 
-    @cli.command()
+    @click.command()
     def dropdb():
         click.echo('Dropped the database')
 
